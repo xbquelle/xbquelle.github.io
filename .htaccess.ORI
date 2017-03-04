@@ -1,0 +1,210 @@
+#Redirect esandra.com
+RewriteEngine On
+#Si el host no es exactamente esandra.com (sin www ni nada)
+RewriteCond %{HTTP_HOST} !^www.esandra.com
+#Redirigir a esandra.com
+RewriteRule ^(.*)$ http://www.esandra.com/$1 [R=301,L]
+redirect 301 /plantillas-html-css-para-crear-curriculum-vitae /plantillas-curriculums-vitae-creativos
+redirect 301 /mi-experiencia-con-el-plugin-qtranslate-de-wordpress /wordpress-guia-practica-de-qtranslate-para-traducir-los-contenidos
+redirect 301 /10-consejos-para-una-experiencia-de-compra-online-excelente /como-sacar-partido-a-su-tienda-online/
+redirect 301 /reputacion-de-una-marca /5-pasos-para-crear-tu-marca-personal
+redirect 301 /mejor-metodo-para-hacer-backup-de-wordpress /como-hacer-un-backup-de-wordpress/
+redirect 301 /pasos-a-seguir-en-el+diseno-de-una-web  /pasos-a-seguir-en-el-diseno-de-una-web
+redirect 301 /crisis-no-te-dejes-explotar /una-critica-a-la-crisis-y-oportunidades-para-disenadores-web
+redirect 301 /10-herramientas-para-integrar-twitter-con-wordpress/ /enviar-a-twitter-entradas-de-wordpress
+redirect 301 /marca-personal /5-pasos-para-crear-tu-marca-personal/
+redirect 301 /los-posts-que-mas-te-gustaron-en-2012 /mejor-de-creativasfera-en-el-2013
+redirect 301 /relaciones-profesionales-win-win/ /como-conseguir-relaciones-win-win-con-tus-clientes
+redirect 301 /emprendedores-de-exito /deja-ya-de-poner-excusas-y-atrevete-vivir/
+redirect 301 /como-crear-un-sitio-web-impresionante/ /emprender-online-claves-de-todo-proyecto-web
+redirect 301 /introduccion-al-loop-de-wordpress/ /wordpress-paginacion-de-un-loop-personalizado/
+redirect 301 /claves-si-estas-quemado-con-tu-negocio /claves-si-quemado-con-tu-negocio
+redirect 301 /libros /libro-los-api-javascript-de-html5/
+redirect 301 /plantillas-web /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /2011/04/3-plantillas-wordpress-de-alta-calidad-gratis/  /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /temas  /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /3-plantillas-wordpress-de-alta-calidad-gratis/  /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /categoria/temas-wordpress/ /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /plantillas-gratis-para-diseno-web-responsive /50-plantillas-premium-de-wordpress-que-no-te-puedes-perder
+redirect 301 /cambio-de-tematica-del-blog/ /bye-bye-creativasfera-hola-esandra/
+redirect 301 /portafolio/ /recursos-graficos-crear-portafolio-atractivo
+redirect 301 /proteccion-de-datos/ /aviso-legal
+redirect 301 /tutoriales/proteccion-de-datos/ /aviso-legal
+redirect 301 /recursos-de-diseno-web-para-mejorar-la-experiencia-de-usuario /recursos
+redirect 301 /recursos-para-crear-un-portafolio-atractivo/ /recursos
+redirect 301 /recursos-gratis-b-diciembre /recursos
+redirect 301 /category/recursos /recursos
+redirect 301 /tienda/ /cursos-online
+redirect 301 /cursos/contacto /cursos-online
+redirect 301 /empresa /cuenta-conmigo
+redirect 301 /empresa-diseno-paginas-web /cuenta-conmigo
+redirect 301 /clases-de-wordpress-barcelona /cuenta-conmigo
+redirect 301 /author/ /profile/
+redirect 301 /sandraguerrerosanmarti/ /about
+redirect 301 /perfil/sguerreros/ /about
+redirect 301 /sguerreros /about
+redirect 301 /sobre-mi/feed/ /about
+redirect 301 /sobre-mi /about
+redirect 301 /tag/consultoria /consultoria
+redirect 301 /producto/cursos /cursos-online
+redirect 301 /reserva-tu-clase /cursos-online
+redirect 301 /curso/curso-diseno-web-con-html5-y-css3/ /disenoweb
+redirect 301 /cursos-online-para-aprender-diseno-web /disenoweb
+redirect 301 /maquetacion /disenoweb
+redirect 301 /curso-diseno-web-html5-css3 /disenoweb
+redirect 301 /producto/curso-diseno-web-con-html5-y-css3/ /disenoweb
+redirect 301 /diseno-paginas-web /disenoweb
+redirect 301 /responsive50 /responsive
+redirect 301 /producto/curso-diseno-web-responsive/ /responsive
+redirect 301 /curso-completo-de-desarrollo-web /responsive
+redirect 301 /tutoriales-para-aprender-a-disenar-sitios-web-responsive /responsive
+redirect 301 /desarrollo-web /responsive
+redirect 301 /aprende-ya-diseno-web-responsive-adaptativo /responsive
+redirect 301 /css-media-queries-para-diseno-web-responsive /responsive
+redirect 301 /diseno-web-responsive-media-queries-css3 /responsive
+redirect 301 /aprende-ya-diseno-web-responsive-layout-fluido /responsive
+redirect 301 /manual-de-diseno-web-adaptativo/ /responsive
+redirect 301 /aprende-ya-diseno-web-responsive-imagenes-fluidas /responsive
+redirect 301 /curso/wordpress-de-la-la-z/ /in/wordpress-basico
+redirect 301 /categoria/seo/ /in/seo
+redirect 301 /categoria/posicionamiento-web/ /in/seo
+redirect 301 /producto/curso-seo-basico/ /in/seo
+redirect 301 /producto/curso-wordpress-basico/ /in/wordpress-basico
+redirect 301  /centredestudisaxis/ http://www.centredestudisaxis.com
+redirect 301 /danielcerda http://www.danielcerda.net
+redirect 301 /blog/diseno-web/ /blog
+redirect 301 /10-posters-publicitarios-de-gran-calidad/ /blog
+redirect 301 /2011/03/10-tendencias-en-diseno-web/ /blog
+redirect 301 /por-que-ser-egoista-es-algo-bueno/ /blog
+redirect 301 /5-maneras-de-agradecer-un-rt-en-twitter/ /blog
+redirect 301 /ejemplo-de-conversion-de-psd-a-html5-usando-css3 /blog
+redirect 301 /escribir-blog/ /blog
+redirect 301 /marketing-en-redes-sociales /blog
+redirect 301 /como-traducir-los-dias-y-meses-en-wordpress/ /blog
+redirect 301 /10-consejos-para-una-experiencia /blog
+redirect 301 /ecommerce-10-plantillas-premium-de-gran-calidad-para-magento  /blog
+redirect 301 /css3-como-crear-un-boton-con-gradiente /blog
+redirect 301 /55-paginas-de-error-404-muy-originales /blog
+redirect 301 /estas-enganchado-al-twitter/ /blog
+redirect 301 /como-mejorar-la-imagen-de-su-empresa/ /blog
+redirect 301 /excelente-plugin-para-insertar-codigo-en-wp/ /blog
+redirect 301 /10-consejos-para-la-web-de-una-pyme/ /blog
+redirect 301 /establecer-prioridades/ /blog
+redirect 301 /que-hacer-antes-de-una-presentacion/ /blog
+redirect 301 /como-hablar-en-publico /blog
+redirect 301 /idea-de-negocio-crear-valor/ /blog
+redirect 301 /evita-uso-display-none-css-mejor-utiliza-este-metodo /blog
+redirect 301 /decalogo-de-principios-y-valores /blog
+redirect 301 /24/bases-de-la-inteligencia-emocional/ /blog
+redirect 301 /estrategias-para-gestionar-las-diferencias /blog
+redirect 301 /5-creencias-erroneas-de-marketing-online /blog
+redirect 301 /zara-arrasa-con-su-tienda-online/ /blog
+redirect 301  /vota-a-creativasfera-en-awwwards /blog
+redirect 301 /beta /
+redirect 301 /anunciate/ /
+redirect 301 /en /
+redirect 301 /ca /
+redirect 301 /blog/en /
+redirect 301 /blog/ca /
+redirect 301 /2010/10/ /
+redirect 301 /2010/11/ /
+redirect 301 /2010/12/ /
+redirect 301 /2011/01/ /
+redirect 301 /2011/02/ /
+redirect 301 /2011/03/ /
+redirect 301 /2011/04/ /
+redirect 301 /2011/05/ /
+redirect 301 /2011/06/ /
+redirect 301 /2011/07/ /
+redirect 301 /2011/08/ /
+redirect 301 /2011/09/ /
+redirect 301 /2011/10/ /
+redirect 301 /2011/11 /
+redirect 301 /2011/12 /
+redirect 301 /2012/02/ /
+redirect 301 /2012/03/ /
+redirect 301 /blog/2010/10/ /
+redirect 301 /blog/2010/11/ /
+redirect 301 /blog/2010/12/ /
+redirect 301 /blog/2011/01/ /
+redirect 301 /blog/2011/02/ /
+redirect 301 /blog/2011/03/ /
+redirect 301 /blog/2011/04/ /
+redirect 301 /blog/2011/05/ /
+redirect 301 /blog/2011/06/ /
+redirect 301 /blog/2011/07/ /
+redirect 301 /blog/2011/08/ /
+redirect 301 /blog/2011/09/ /
+redirect 301 /blog/2011/10/ /
+redirect 301 /blog/2011/12 /
+redirect 301 /page/ /
+redirect 301 /tutoriales/page/ /
+redirect 301 /consejos/page/ /
+redirect 301 /inspirarcion/page/ /
+redirect 301 /category/ /categoria/
+redirect 301 /categoria/sin-categoria/ /blog
+redirect 301 /gracias /
+redirect 301 /colabora /contacto
+
+
+
+#Fin de redirect
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+#START Adaptive-Images
+
+#Add any directories you wish to omit from the Adaptive-Images process on a new line.
+#Omit plugins, wp-includes and wp-admin content.
+RewriteCond %{REQUEST_URI} !wp-content/plugins
+RewriteCond %{REQUEST_URI} !wp-includes
+RewriteCond %{REQUEST_URI} !wp-admin
+
+#Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
+#to adaptive-images.php so we can select appropriately sized versions
+RewriteRule .(?:jpe?g|gif|png)$ adaptive-images.php
+
+#END Adaptive-Images
+
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+</IfModule>
+## EXPIRES CACHING ##
+
+# BEGIN Compress text files
+<ifModule mod_deflate.c>
+<filesMatch "\.(css|js|x?html?|php)$">
+SetOutputFilter DEFLATE
+</filesMatch>
+</ifModule>
+# END Compress text files
+
+
+# allow all except those indicated here
+order allow,deny
+allow from all
+deny from 95.17.129.36
